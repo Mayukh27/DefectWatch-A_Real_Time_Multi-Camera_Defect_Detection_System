@@ -3,3 +3,8 @@ __pycache__/
 .env 
 server/static/ 
 client/static/ 
+__pycache__/ 
+*.pyc 
+.env 
+server/static/captured_images/ 
+client/static/captured_images/ 
