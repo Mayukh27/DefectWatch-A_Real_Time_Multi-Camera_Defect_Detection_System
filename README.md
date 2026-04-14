@@ -1,4 +1,4 @@
-# 🛠️ DefectWatch : A Real-Time Multi-Camera Defect Detection System
+# 🛠️ Real-Time Defect & Change Detection System
 
 A real-time computer vision–based defect and change detection system built using **Python, OpenCV, and Flask**.  
 The system supports **multiple camera feeds**, detects structural defects such as cracks or object displacement, and displays results on a centralized web dashboard.
