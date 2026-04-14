@@ -4,6 +4,7 @@ import requests
 app = Flask(__name__)
 
 STREAM_URLS = [
+    "http://192.168.0.105:5000",
     "http://10.34.239.1:5000",   
     "http://10.34.239.50:5000",     
     "http://10.34.239.53:5000",
@@ -13,7 +14,7 @@ STREAM_URLS = [
 
 @app.route("/")
 def index():
-    return render_template("index_03.html", streams=STREAM_URLS)
+    return render_template("index.html", streams=STREAM_URLS)
 
 
 @app.route("/proxy/<int:cam_id>")
